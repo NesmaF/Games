@@ -1,0 +1,127 @@
+header img {
+  height: 200px;
+}
+body {
+  background-color: #272b30;
+}
+span,h6 {
+  font-family: "Nerko One";
+}
+.nav-link {
+  font-family: "Comfortaa", cursive;
+}
+:root {
+  --main-color: #3a497b;
+}
+nav img {
+  max-width: 40px;
+  height: 50px;
+}
+.navbar {
+  background-color: var(--main-color);
+}
+nav span{
+    font-size: 30px;
+    font-weight: 200;
+    
+}
+.nav-link{
+    color: white;
+}
+
+.nav-item .nav-link.active, .nav-item .nav-link:hover{
+        color: #09c !important;
+    transition: all 0.5s;
+}
+.navbar-nav .nav-link.active{
+     color: #09c ;
+}
+::-webkit-scrollbar {
+   width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+   background-color: rgb(73, 65, 65);
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: var(--main-color);
+   border-radius: 50px;
+   box-shadow: 0 0 5px rgb(0 0 0 / 0.5) inset;
+}
+#games img{
+    max-width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    filter:grayscale(0.6);
+
+}
+.sec{
+    background-color: #272b30;
+    width: 50px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}
+.pc{
+     background-color: #272b30;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}
+#games button.btn{
+    background-color: var(--main-color);
+color: white;
+}
+#games .btn:hover{
+    background-color: #09c;
+}
+.card{
+    cursor: pointer;
+transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+   
+      
+}
+.card:hover #games .btn{
+   background-color: #09c!important;
+}
+.card:hover img{
+     filter: none !important;
+}
+/* .details{
+  background-color: #272b30
+} */
+/* loadin */
+
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

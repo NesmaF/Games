@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <meta name="description" content="Game Over Side">
+
+        <title>Games</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nerko+One&display=swap"
+            rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <header id="header">
+            <img src="images/wraper.png" class="w-100 " alt="photo">
+
+            <nav class="navbar  navbar-expand-lg w-75 rounded-5 m-auto  position-sticky top-0 z-3">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-sm.png" alt="Bootstrap"><span class="text-white fw-lighter m-2">GAME
+                            REVIEWS</span>
+
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse  navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto list">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-category="mmorpg" aria-current="page"
+                                    href="#">mmorpg</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="shooter" href="#">shooter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="sailing" href="#">sailing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="permadeath" href="#">permadeath</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="superhero" href="#">superhero</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-category="pixel" href="#">pixel</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section id="games" class="games">
+                <div class="container position-relative">
+                    <div id="dgames" class="row row-cols-1 row-cols-md-4 g-4 my-5 ">
+                        <!-- <div class="col ">
+                                    <div class="card h-100 bg-dark text-white-50 items" gameId="">
+                                        <img src="images/thumbnail.jpg" class="card-img-top " alt="roblox">
+                                        <div class="card-body d-flex justify-content-between">
+                                            <h5 id="nameGame">roblox</h5>
+                                            <button type="button" class="btn px-2 py-0 ">free</button>
+            
+                                        </div>
+                                        <p id="gameDesc" class="mx-3">built,for,mobile</p>
+                                        <div class="card-footer d-flex justify-content-between">
+                                            <h6 id="home" class="sec">home</h6>
+                                            <h6 class="pc">pc (windows)</h6>
+            
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                    </div>
+                </div>
+
+            </section>
+
+
+        </header>
+
+
+        <section id="details" class="details d-none ">
+            <div class="container">
+                <div class="header d-flex justify-content-between">
+                    <h1 class="text-white fw-bold my-5 ">Details Game</h1>
+                    <button class="btn-close btn-close-white my-5" id="btnClose"></button>
+                </div>
+                <div class="row g-4 " id="mydetails">
+
+                    <div class="col-md-4">
+                        <img src="images/thumbnail.jpg" id="gameImage" alt="photo games" class="w-100">
+                    </div>
+                    <div class="col-md-8">
+                        <h3 id="title" class="text-white">Title: Diablo Immortal</h3>
+                        <p class="text-white fs-5">Category: <span
+                                class="text-bg-info rounded fs-5 p-0 px-1">home</span></p>
+                        <p class="text-white fs-5">Platform: <span
+                                class="text-bg-info rounded fs-5 p-0 px-1">windows</span></p>
+                        <p class="text-white fs-5">status: <span class="text-bg-info rounded fs-5 p-0 px-1">live</span>
+                        </p>
+
+
+                        <p id="text" class="text-white">jkghjh.</p>
+                        <button class="btn btn-outline-warning text-white">show game</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section>
+            <div class="loading lds-dual-ring d-none"></div>
+        </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script type="module" src="js/main.js"></script>
+        <!-- <script src="js/sec.js"></script> -->
+
+    </body>
+
+</html>
